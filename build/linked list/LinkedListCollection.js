@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LinkedList = void 0;
-const Sorter_1 = require("./Sorter");
+const Sorter_1 = require("../class/Sorter");
 class Node {
     constructor(data) {
         this.data = data;

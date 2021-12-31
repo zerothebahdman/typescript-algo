@@ -1,6 +1,6 @@
-import { NumbersCollection } from "./NumbersCollection";
-import { CharactersCollection } from "./CharactersCollection";
-import { LinkedList } from "./LinkedListCollection";
+import { LinkedList } from "./linked list/LinkedListCollection";
+import { NumbersCollection } from "./numbers/NumbersCollection";
+import { CharactersCollection } from "./strings/CharactersCollection";
 
 const numberCollections = new NumbersCollection([82, 4, 5, 0, -6, 10, 17, 80]);
 numberCollections.sort();

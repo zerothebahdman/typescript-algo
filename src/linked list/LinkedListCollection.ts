@@ -1,4 +1,4 @@
-import { Sorter } from "./Sorter";
+import { Sorter } from "../class/Sorter";
 class Node {
   next: Node | null = null;
 

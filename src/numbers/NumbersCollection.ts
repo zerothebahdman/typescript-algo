@@ -1,6 +1,6 @@
 /** use this to sort array of numbers (numbers[]) */
 
-import { Sorter } from "./Sorter";
+import { Sorter } from "../class/Sorter";
 
 export class NumbersCollection extends Sorter {
   constructor(public data: number[]) {

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const NumbersCollection_1 = require("./NumbersCollection");
-const CharactersCollection_1 = require("./CharactersCollection");
-const LinkedListCollection_1 = require("./LinkedListCollection");
+const LinkedListCollection_1 = require("./linked list/LinkedListCollection");
+const NumbersCollection_1 = require("./numbers/NumbersCollection");
+const CharactersCollection_1 = require("./strings/CharactersCollection");
 const numberCollections = new NumbersCollection_1.NumbersCollection([82, 4, 5, 0, -6, 10, 17, 80]);
 numberCollections.sort();
 console.log(numberCollections.data);

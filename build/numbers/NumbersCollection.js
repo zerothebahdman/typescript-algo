@@ -2,7 +2,7 @@
 /** use this to sort array of numbers (numbers[]) */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NumbersCollection = void 0;
-const Sorter_1 = require("./Sorter");
+const Sorter_1 = require("../class/Sorter");
 class NumbersCollection extends Sorter_1.Sorter {
     constructor(data) {
         super();
